@@ -1,0 +1,77 @@
+.main{
+  width: 50%;
+  margin-left: 25%;
+}
+.main p{
+  font-family: 'Josefin Sans';
+}
+.main li{
+  font-family: "Josefin Sans";
+  list-style: square;
+}
+.main .fo{
+  font-size: 18px;
+}
+.main .bold{
+  font-weight: bold;
+  display: inline;
+  font-size: 18px;
+}
+.head #nagy{
+  margin-top: 2px;
+  font-size: 52px;
+  font-weight: normal;
+  vertical-align: bottom;
+}
+.exp{
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Josefin Sans";
+  margin-bottom: 1px;
+}
+.beo{
+  margin-top: 2px;
+  font-family: 'Merriweather';
+  font-size: 15px;
+  font-style: italic;
+}
+.main .nszoveg{
+  display: inline;
+  font-size: 18px;
+}
+blockquote{
+  font-family: 'Abril Fatface';
+  color: white;
+  background: grey;
+  font-size: 52px;
+  margin: 15px;
+  padding: 10px 32px;
+  padding-bottom: 30px;
+  position: relative;
+  width: 110%;
+  right: 50px;
+}
+blockquote::before{
+  content: '\201C';
+  vertical-align: 5px;
+  font-size: 100px;
+  color: white;
+  background: grey;
+}
+.head{
+  font-family: 'Abril Fatface';
+  padding-left: 25%;
+  margin: 15px 5%;
+  width: 900px;
+  height: 400px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+}
+.head .kosz{
+  padding-top: 250px;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+.keret{
+  border-top: 5px solid black;
+}
