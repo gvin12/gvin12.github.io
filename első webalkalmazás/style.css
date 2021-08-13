@@ -1,0 +1,89 @@
+body{
+    background-color: #d3d3d3;
+    background-image: linear-gradient(to right, darkgrey, white ,darkgrey);
+}
+#imagecont{
+    display: flex;
+    width: 610px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#kep{
+    width: 510px;
+    height: 340px;
+    margin-bottom: 0;
+}
+.nyil{
+    height: 340px;
+    width: 50px;
+    align-content: center;
+    background-color: ghostwhite;
+}
+.nkep:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+#kov{
+    transform: rotate(0.5turn);
+}
+.nkep{
+    margin-left: 18px;
+    margin-top: 159px;
+}
+.gray-container{
+    background-color: black;
+    margin-top: 0;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0px;
+    width: 510px;
+    opacity: 0.7;
+}
+.middlebox{
+    position: relative;
+}
+#photo-title{
+    margin-top: 3px;
+    margin-bottom: 6px;
+    margin-left: 12px;
+}
+#photo-description{
+    margin-top: 0;
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+#thumbc{
+    text-align: center;
+    margin-top: 50px;
+}
+div .thumbi{
+    width: 90px;
+    height: 120px;
+    display: inline;
+}
+.thumbp{
+    width: 90px;
+    height: 90px;
+    border: 5px ridge white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.title{
+    display: none;
+    position: absolute;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top: 58%;
+    left: 47%;
+    margin: 0;
+    width: 90px;
+    height: 20px;
+}
+
+.thumbi:hover .title{
+    display: block;
+}
